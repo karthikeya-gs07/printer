@@ -1,0 +1,17 @@
+*{
+    padding: 10px;
+
+}
+
+.webicon{
+    float: left;
+}
+
+header{
+    background-color: rgb(225, 225, 225);
+}
+nav{
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+}
