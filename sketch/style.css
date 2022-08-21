@@ -1,8 +1,39 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
   }
   canvas {
     display: block;
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: #ececec;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 5px 10px 20px #dfdfdf;
+  }
+  
+  .navbar a {
+    float: right;
+    display: inline-block;
+    color: #5d7581;
+    text-align: center;
+    padding: 35px 35px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .navbar a:hover {
+    background: #dde1e4;
+    color: #365464;
+    transition: 0.8s;
+  }
+  
+  .active {
+    background: #d8e8f4;
   }
   
