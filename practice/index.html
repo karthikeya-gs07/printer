@@ -1,32 +1,61 @@
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Printers for All</title>
-        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <nav>
-                <a href="#" id="webicon">Print'em at home</a>
-                <a href="/narrative">The Narrative</a>
-                <a href="/static">The Static Poster</a>
-                <a href="/process">The Process</a>
-                <a href="/practice">The Practice</a>
-                <a href="/sketch">The p5 Sketch</a>
-            </nav>
-        </header>
+        <div class="navbar">
+            <!-- <a href="/narrative">The Narrative</a>
+            <a href="/static">The Static Poster</a>
+            <a href="/process">The Process</a>
+            <a href="/practice">The Practice</a>
+            <a href="/sketch">The p5 Sketch</a> -->
 
-        <main>
-            <h1>Print'em at Home</h1>
-            <p>This article is helps you choose the best printer for your house. gives you a bigger picture on all the KPI's that
-                you need to keep in mind before choose a good printer for yourself.<br>
-            </p>
+            <a href="/sketch">The p5 Sketch</a>
+            <a href="/practice" class="active">The Practice</a>
+            <a href="/process">The Process</a>
+            <a href="/static">The Static Poster</a>
+            <a href="/index.html">The Narrative</a>
+        </div>
 
-            <section>
-                <img width="400px" src="1.jpg">
-                <img width="400px" src="2.jpg">
-                <img width="400px" src="3.jpg">
-                <img width="400px" src="4.jpg">
-            </section>
-        </main>
+        <div class="main">
+            <!-- Hand Drawing Section -->
+            <h1>1. Hand Sketched Graphs</h1>
+            <p>The following hand drawn graphs are a representation of Sales
+                and Profit of different areas categories into directions -
+                <b>North, East, South, West, Central</b>.</p>
+            <div class="row"> 
+                <div class="column">
+                    <img src="1.jpg" style="width:100%">
+                    <img src="3.jpg" style="width:100%">
+                </div>
+                
+                <div class="column">
+                    <img src="2.jpg" style="width:100%">
+                    <img src="4.jpg" style="width:100%">
+                </div>
+            </div>
+
+            <br><br><br><hr><br><br><br>
+
+            <!-- Rawgraph Generated Graphs -->
+            <h1>2. Raw Graphs</h1>
+            <p>The hand sketched graphs made in the above section are recreated using <b>Rawgraph</b></p>
+            <div class="row"> 
+                <div class="column">
+                    <img src="5.jpg" style="width:100%">
+                    <img src="7.jpg" style="width:100%">
+                    <img src="9.jpg" style="width:100%">
+                </div>
+                
+                <div class="column">
+                    <img src="6.jpg" style="width:100%">
+                    <img src="8.jpg" style="width:100%">
+                    <img src="10.jpg" style="width:100%">
+                </div>
+            </div>
+        </div>    
     </body>
 </html>
