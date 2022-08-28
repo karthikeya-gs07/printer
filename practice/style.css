@@ -67,7 +67,7 @@ body{
 }
 
 /* Clear floats after the columns */
-.row:after {
+.row {
   content: "";
   display: table;
   clear: both;

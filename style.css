@@ -103,6 +103,21 @@ body{
     padding-top: 40px;
     width: 50%;
   }
+
+  .column12 {
+    float: left;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+  
+  .column12 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    width: 50%;
+  }
   
   /* Clear floats after the columns */
   .row {
