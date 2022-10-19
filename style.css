@@ -199,4 +199,10 @@ body{
     display: table;
     clear: both;
   }
-  
+
+  .column5 {
+    float: left;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+  }
