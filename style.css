@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
     background-color: #ececec;
     font-family: 'Kumbh Sans', sans-serif;
@@ -39,11 +42,59 @@ body{
     /* background-image: url('bgg.png');
     background-attachment: fixed; */
     background-size: 100% 100%;
-    margin-left: 40px;
+    margin-left: 70px;
     padding: 70px;
     margin-top: 50px;
     color: #5d7581;
-    height: 80%;
+    height: 70%;
+  }
+
+  .main a{
+    text-decoration: none;
+    padding: 35px 35px;
+    text-align: center;
+    background-color: #ffffff52;
+    border-radius: 20px;
+    color: white;
+  }
+
+  .main a:hover{
+    text-decoration: none;
+    padding: 35px 35px;
+    text-align: center;
+    background-color: #0084ff;
+    border-radius: 20px;
+    color: white;
+    transition: 0.5s;
+  }
+
+  .flow1{
+    /* background-image: url('bgg.png');
+    background-attachment: fixed; */
+    margin-left: 0px;
+    padding: 220px;
+    margin-top: 50px;
+    color: #ffffff;
+  }
+
+  .flow1 a{
+    text-decoration: none;
+    padding: 35px 35px;
+    text-align: center;
+    background-color: #ffffff52;
+    border-radius: 20px;
+    color: white;
+  }
+
+  .flow1 a:hover{
+    text-decoration: none;
+    padding: 35px 35px;
+    text-align: center;
+    background-color: #0084ff;
+    border-radius: 20px;
+    color: white;
+    transition: 0.5s;
+    ;
   }
 
   .Vcenter{
@@ -107,6 +158,26 @@ body{
     width: 50%;
   }
 
+  .column1 a{
+    text-decoration: none;
+    padding: 35px 35px;
+    text-align: center;
+    background-color: #ffffff52;
+    border-radius: 20px;
+    color: white;
+  }
+
+  .column1 a:hover{
+    text-decoration: none;
+    padding: 35px 35px;
+    text-align: center;
+    background-color: #0084ff;
+    border-radius: 20px;
+    color: white;
+    transition: 0.5s;
+    ;
+  }
+
   .column12 {
     float: left;
     width: 100%;
@@ -128,4 +199,3 @@ body{
     display: table;
     clear: both;
   }
-
